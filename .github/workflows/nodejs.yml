@@ -1,0 +1,49 @@
+on:
+  push:
+    branches: [main]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  linting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/build
+      - name: All lining
+        run: pnpm lint
+
+  webapp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/build
+      - name: Webapp Build
+        run: pnpm webapp build
+      - name: Webapp Tests
+        run: pnpm webapp ci:test
+      - name: Webapp Development Smoke Test
+        run: pnpm webapp ci:smoke
+
+  design:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/build
+      - name: Install Playwright
+        run: npx playwright install
+      - name: Design System Build & Test
+        run: pnpm design ci:test
+      - name: Design System Development Smoke Test
+        run: pnpm design dev --smoke-test
+
+  deploy:
+    needs: [linting, design, webapp]
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Deploying .."
