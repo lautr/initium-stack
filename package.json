@@ -1,5 +1,5 @@
 {
-  "name": "@lautr/initium-nuxt",
+  "name": "@lautr/initium-stack",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@9.12.2",
@@ -10,9 +10,10 @@
   "main": "index.js",
   "scripts": {
     "lint": "pnpm eslint .",
-    "webapp": "pnpm --filter @lautr/initium-nuxt-webapp",
-    "design": "pnpm --filter @lautr/initium-nuxt-design",
-    "services": "pnpm --filter @lautr/initium-nuxt-services",
+    "webapp": "pnpm --filter @lautr/initium-stack-webapp",
+    "api": "pnpm --filter @lautr/initium-stack-api",
+    "design": "pnpm --filter @lautr/initium-stack-design",
+    "services": "pnpm --filter @lautr/initium-stack-services",
     "dev": "concurrently \"pnpm design dev\" \"pnpm webapp dev\""
   },
   "devDependencies": {

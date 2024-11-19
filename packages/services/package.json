@@ -1,5 +1,5 @@
 {
-  "name": "@lautr/initium-nuxt-services",
+  "name": "@lautr/initium-stack-services",
   "version": "1.0.0",
   "private": "true",
   "devDependencies": {

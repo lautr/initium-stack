@@ -1,5 +1,5 @@
 {
-  "name": "@lautr/initium-nuxt-webapp",
+  "name": "@lautr/initium-stack-webapp",
   "type": "module",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
     "ci:smoke": "pnpm dlx concurrently -k -s first -n \"NUXT,TEST\" -c \"magenta,blue\" \"pnpm dev\" \"pnpm dlx wait-on tcp:3000 && pnpm echo \"pass\" \""
   },
   "devDependencies": {
-    "@lautr/initium-nuxt-design": "workspace:*",
+    "@lautr/initium-stack-design": "workspace:*",
     "@nuxt/devtools": "1.6.0",
     "@nuxt/test-utils-edge": "3.8.0-28284309.b3d3d7f4",
     "@nuxtjs/color-mode": "3.5.2",

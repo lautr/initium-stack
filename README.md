@@ -1,4 +1,4 @@
-#  lautr/initium-nuxt 🔥
+#  lautr/initium-stack 🔥
 
 <pre align="center">
 🚀 Opinionated Nuxt, Tailwind & Storybook monorepo template
@@ -55,14 +55,14 @@ This Template is designed to provide great DX with [VS Code](https://code.visual
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/lautr/initium-nuxt/generate).
+[Create a repo from this template on GitHub](https://github.com/lautr/initium-stack/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit lautr/initium-nuxt my-nuxt3-app
+npx degit lautr/initium-stack my-nuxt3-app
 cd my-nuxt3-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```

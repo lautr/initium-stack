@@ -1,3 +1,4 @@
+import tailwindConfig from '@lautr/initium-stack-design/tailwind.config'
 import { createResolver } from '@nuxt/kit'
 
 const { resolve } = createResolver(import.meta.url)
@@ -6,7 +7,7 @@ const { resolve } = createResolver(import.meta.url)
 export default defineNuxtConfig({
   compatibilityDate: '2024-07-10',
   alias: {
-    '@lautr/initium-nuxt-webapp': resolve('./'),
+    '@lautr/initium-stack-webapp': resolve('./'),
   },
   devtools: { enabled: true },
   sourcemap: false,
@@ -43,7 +44,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@vue-macros/nuxt',
-    '@lautr/initium-nuxt-design/nuxt.ts',
+    '@lautr/initium-stack-design/nuxt.ts',
   ],
   routeRules: {
     '/**': {
@@ -54,21 +55,19 @@ export default defineNuxtConfig({
   },
   tailwindcss: {
     config: {
-      content: [
-        '../../packages/design/components/**/*.vue',
-        '../../packages/design/styles/*.css',
-        './components/**/*.{js,vue,ts}',
-        './layouts/**/*.vue',
-        './pages/**/*.vue',
-        './plugins/**/*.{js,ts}',
-        './nuxt.config.{js,ts}',
-        './app.vue',
-      ],
-      darkMode: 'class',
-      theme: {
-        extend: {},
+      ...tailwindConfig,
+      ...{
+        content: [
+          '../../packages/design/components/**/*.vue',
+          '../../packages/design/styles/*.css',
+          './components/**/*.{js,vue,ts}',
+          './layouts/**/*.vue',
+          './pages/**/*.vue',
+          './plugins/**/*.{js,ts}',
+          './nuxt.config.{js,ts}',
+          './app.vue',
+        ],
       },
-      plugins: [],
     },
     viewer: false,
   },
