@@ -66,13 +66,13 @@
   },
   "pnpm": {
     "overrides": {
-      "strtok3": "8.0.1"
+      "strtok3": "8.1.0"
     }
   },
   "overrides": {
-    "strtok3": "8.0.1"
+    "strtok3": "8.1.0"
   },
   "resolutions": {
-    "strtok3": "8.0.1"
+    "strtok3": "8.1.0"
   }
 }
