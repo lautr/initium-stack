@@ -70,7 +70,7 @@ importers:
     dependencies:
       '@adonisjs/auth':
         specifier: ^9.2.3
-        version: 9.2.4(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.4.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(better-sqlite3@11.6.0)(luxon@3.5.0))(@adonisjs/session@7.5.0(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4)))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/plugin-adonisjs@3.0.1(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/runner@3.1.4)(playwright@1.46.0))
+        version: 9.2.4(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.6.0)(luxon@3.5.0))(@adonisjs/session@7.5.0(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4)))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/plugin-adonisjs@3.0.1(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/runner@3.1.4)(playwright@1.46.0))
       '@adonisjs/core':
         specifier: ^6.14.1
         version: 6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0)
@@ -79,7 +79,7 @@ importers:
         version: 2.2.1(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))
       '@adonisjs/lucid':
         specifier: ^21.3.0
-        version: 21.4.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(better-sqlite3@11.6.0)(luxon@3.5.0)
+        version: 21.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.6.0)(luxon@3.5.0)
       '@adonisjs/session':
         specifier: 7.5.0
         version: 7.5.0(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))
@@ -428,15 +428,18 @@ packages:
     resolution: {integrity: sha512-1QmbLPNC636MeJzqflMA64lUnAn5dbb7W0YQ/ea33papnNqGOfvDQuxqqKlzM6ww9jPZlXTIf/3t7KAWlfHCfQ==}
     engines: {node: '>=18.16.0'}
 
-  '@adonisjs/lucid@21.4.0':
-    resolution: {integrity: sha512-RitHDj/gSpnKrs8qsbf3FtoWN95EGto9Hl4ZLw2xiQbBXZwp68O9xMAJsUYsZ2vSpez3o4fyNDM7dTf50hHJ5g==}
+  '@adonisjs/lucid@21.5.0':
+    resolution: {integrity: sha512-guRoFVnWzvtQihkQ0AJJAXc8g9oQnAWQcdos1kptlNsrJsVfPiG6mM7fgjr8cbl6xu/LlM+PF7FqK9j6ykFrRA==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
       '@adonisjs/assembler': ^7.7.0
       '@adonisjs/core': ^6.10.1
+      '@vinejs/vine': ^2.0.0 || ^3.0.0
       luxon: ^3.4.4
     peerDependenciesMeta:
       '@adonisjs/assembler':
+        optional: true
+      '@vinejs/vine':
         optional: true
       luxon:
         optional: true
@@ -1349,8 +1352,8 @@ packages:
     resolution: {integrity: sha512-2b/g5hRmpbb1o4GnTZax9N9m0FXzz9OV42ZzI4rDDMDuHUqigAiQCEWChBWCY4ztAGVRjoWT19v0yMmc5/L5kA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@faker-js/faker@9.2.0':
-    resolution: {integrity: sha512-ulqQu4KMr1/sTFIYvqSdegHT8NIkt66tFAkugGnHA+1WAfEn6hMzNR+svjXGFRVLnapxvej67Z/LwchFrnLBUg==}
+  '@faker-js/faker@9.3.0':
+    resolution: {integrity: sha512-r0tJ3ZOkMd9xsu3VRfqlFR6cz0V/jFYRswAIpC+m/DIfAUXq7g8N7wTAlhSANySXYGKzGryfDXwtwsY8TxEIDw==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
 
   '@fastify/accept-negotiator@1.1.0':
@@ -2494,8 +2497,8 @@ packages:
   '@types/babel__traverse@7.20.6':
     resolution: {integrity: sha512-r1bzfrm0tomOI8g1SzvCaQHo6Lcv6zu0EA+W2kHrt8dyrHQxGzBBL4kdkzIS+jBMV+EYcMAEAqXqYaLJq5rOZg==}
 
-  '@types/bytes@3.1.4':
-    resolution: {integrity: sha512-A0uYgOj3zNc4hNjHc5lYUfJQ/HVyBXiUMKdXd7ysclaE6k9oJdavQzODHuwjpUu2/boCP8afjQYi8z/GtvNCWA==}
+  '@types/bytes@3.1.5':
+    resolution: {integrity: sha512-VgZkrJckypj85YxEsEavcMmmSOIzkUHqWmM4CCyia5dc54YwsXzJ5uT4fYxBQNEXx+oF1krlhgCbvfubXqZYsQ==}
 
   '@types/chai@4.3.20':
     resolution: {integrity: sha512-/pC9HAB5I/xMlc5FP77qjCnI16ChlJfW0tGa0IUcFn38VJrTV6DeZ60NU5KZBtaOZqjdpwTWohz5HU1RrhiYxQ==}
@@ -5052,6 +5055,10 @@ packages:
   gopd@1.0.1:
     resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
 
+  gopd@1.2.0:
+    resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
+    engines: {node: '>= 0.4'}
+
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
@@ -5082,12 +5089,16 @@ packages:
   has-property-descriptors@1.0.2:
     resolution: {integrity: sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==}
 
-  has-proto@1.0.3:
-    resolution: {integrity: sha512-SJ1amZAJUiZS+PhsVLf5tGydlaVB8EdFpaSO4gmiUKUOxk8qzn5AIy4ZeJUmh22znIdk/uMAUT2pl3FxzVUH+Q==}
+  has-proto@1.1.0:
+    resolution: {integrity: sha512-QLdzI9IIO1Jg7f9GT1gXpPpXArAn6cS31R1eEZqz08Gc+uQ8/XiqHWt17Fiw+2p6oTTIq5GXEpQkAlA88YRl/Q==}
     engines: {node: '>= 0.4'}
 
   has-symbols@1.0.3:
     resolution: {integrity: sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==}
+    engines: {node: '>= 0.4'}
+
+  has-symbols@1.1.0:
+    resolution: {integrity: sha512-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h+eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ==}
     engines: {node: '>= 0.4'}
 
   has-tostringtag@1.0.2:
@@ -6557,10 +6568,6 @@ packages:
   object-hash@3.0.0:
     resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==}
     engines: {node: '>= 6'}
-
-  object-inspect@1.13.2:
-    resolution: {integrity: sha512-IRZSRuzJiynemAXPYtPe5BoI/RESNYR7TYm50MC5Mqbd3Jmw5y790sErYw3V6SryFJD64b74qQQs9wn5Bg/k3g==}
-    engines: {node: '>= 0.4'}
 
   object-inspect@1.13.3:
     resolution: {integrity: sha512-kDCGIbxkDSXE3euJZZXzc6to7fCrKHNI/hSRQnRuQ+BWjFNzZwiFF8fj/6o2t2G9/jTj8PSIYTfCLelLZEeRpA==}
@@ -8264,6 +8271,9 @@ packages:
   unimport@3.14.2:
     resolution: {integrity: sha512-FSxhbAylGGanyuTb3K0Ka3T9mnsD0+cRKbwOS11Li4Lh2whWS091e32JH4bIHrTckxlW9GnExAglADlxXjjzFw==}
 
+  unimport@3.14.3:
+    resolution: {integrity: sha512-yEJps4GW7jBdoQlxEV0ElBCJsJmH8FdZtk4oog0y++8hgLh0dGnDpE4oaTc0Lfx4N5rRJiGFUWHrBqC8CyUBmQ==}
+
   unist-util-is@6.0.0:
     resolution: {integrity: sha512-2qCTHimwdxLfz+YzdGfkqNlH0tLi9xjTnHddPmJwtIG9MGsdbutfTc4P+haPD7l7Cjxf/WZj+we5qfVPvvxfYw==}
 
@@ -8956,14 +8966,14 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@adonisjs/auth@9.2.4(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.4.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(better-sqlite3@11.6.0)(luxon@3.5.0))(@adonisjs/session@7.5.0(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4)))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/plugin-adonisjs@3.0.1(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/runner@3.1.4)(playwright@1.46.0))':
+  '@adonisjs/auth@9.2.4(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.6.0)(luxon@3.5.0))(@adonisjs/session@7.5.0(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4)))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/plugin-adonisjs@3.0.1(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/runner@3.1.4)(playwright@1.46.0))':
     dependencies:
       '@adonisjs/core': 6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0)
       '@adonisjs/presets': 2.6.3(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))
       '@poppinss/utils': 6.8.3
       basic-auth: 2.0.1
     optionalDependencies:
-      '@adonisjs/lucid': 21.4.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(better-sqlite3@11.6.0)(luxon@3.5.0)
+      '@adonisjs/lucid': 21.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.6.0)(luxon@3.5.0)
       '@adonisjs/session': 7.5.0(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))
       '@japa/api-client': 2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4)
       '@japa/plugin-adonisjs': 3.0.1(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/runner@3.1.4)(playwright@1.46.0)
@@ -9117,11 +9127,11 @@ snapshots:
       abstract-logging: 2.0.1
       pino: 9.5.0
 
-  '@adonisjs/lucid@21.4.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(better-sqlite3@11.6.0)(luxon@3.5.0)':
+  '@adonisjs/lucid@21.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.6.0)(luxon@3.5.0)':
     dependencies:
       '@adonisjs/core': 6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0)
       '@adonisjs/presets': 2.6.3(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@adonisjs/core@6.15.2(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@2.1.0))
-      '@faker-js/faker': 9.2.0
+      '@faker-js/faker': 9.3.0
       '@poppinss/hooks': 7.2.4
       '@poppinss/macroable': 1.0.3
       '@poppinss/utils': 6.8.3
@@ -9136,6 +9146,7 @@ snapshots:
       tarn: 3.0.2
     optionalDependencies:
       '@adonisjs/assembler': 7.8.2(typescript@5.7.2)
+      '@vinejs/vine': 2.1.0
       luxon: 3.5.0
     transitivePeerDependencies:
       - better-sqlite3
@@ -9933,7 +9944,7 @@ snapshots:
     dependencies:
       levn: 0.4.1
 
-  '@faker-js/faker@9.2.0': {}
+  '@faker-js/faker@9.3.0': {}
 
   '@fastify/accept-negotiator@1.1.0':
     optional: true
@@ -10465,7 +10476,7 @@ snapshots:
       semver: 7.6.3
       ufo: 1.5.4
       unctx: 2.3.1
-      unimport: 3.14.2(rollup@4.24.4)
+      unimport: 3.14.3(rollup@4.24.4)
       untyped: 1.5.1
     transitivePeerDependencies:
       - magicast
@@ -10568,7 +10579,7 @@ snapshots:
       postcss-import-resolver: 2.0.0
       std-env: 3.8.0
       ufo: 1.5.4
-      unimport: 3.14.2(rollup@4.24.4)
+      unimport: 3.14.3(rollup@4.24.4)
       untyped: 1.5.1
     transitivePeerDependencies:
       - rollup
@@ -10954,7 +10965,7 @@ snapshots:
   '@poppinss/utils@6.8.3':
     dependencies:
       '@lukeed/ms': 2.0.2
-      '@types/bytes': 3.1.4
+      '@types/bytes': 3.1.5
       '@types/pluralize': 0.0.33
       bytes: 3.1.2
       case-anything: 3.1.0
@@ -11614,7 +11625,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.26.0
 
-  '@types/bytes@3.1.4': {}
+  '@types/bytes@3.1.5': {}
 
   '@types/chai@4.3.20': {}
 
@@ -13580,7 +13591,7 @@ snapshots:
     dependencies:
       es-define-property: 1.0.0
       es-errors: 1.3.0
-      gopd: 1.0.1
+      gopd: 1.2.0
 
   define-lazy-prop@2.0.0: {}
 
@@ -13783,8 +13794,8 @@ snapshots:
       globalthis: 1.0.4
       gopd: 1.0.1
       has-property-descriptors: 1.0.2
-      has-proto: 1.0.3
-      has-symbols: 1.0.3
+      has-proto: 1.1.0
+      has-symbols: 1.1.0
       hasown: 2.0.2
       internal-slot: 1.0.7
       is-array-buffer: 3.0.4
@@ -13822,7 +13833,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
       get-intrinsic: 1.2.4
-      has-symbols: 1.0.3
+      has-symbols: 1.1.0
       is-arguments: 1.1.1
       is-map: 2.0.3
       is-set: 2.0.3
@@ -14583,8 +14594,8 @@ snapshots:
     dependencies:
       es-errors: 1.3.0
       function-bind: 1.1.2
-      has-proto: 1.0.3
-      has-symbols: 1.0.3
+      has-proto: 1.1.0
+      has-symbols: 1.1.0
       hasown: 2.0.2
 
   get-package-type@0.1.0: {}
@@ -14721,6 +14732,8 @@ snapshots:
     dependencies:
       get-intrinsic: 1.2.4
 
+  gopd@1.2.0: {}
+
   graceful-fs@4.2.11: {}
 
   graphemer@1.4.0: {}
@@ -14769,9 +14782,13 @@ snapshots:
     dependencies:
       es-define-property: 1.0.0
 
-  has-proto@1.0.3: {}
+  has-proto@1.1.0:
+    dependencies:
+      call-bind: 1.0.7
 
   has-symbols@1.0.3: {}
+
+  has-symbols@1.1.0: {}
 
   has-tostringtag@1.0.2:
     dependencies:
@@ -15159,7 +15176,7 @@ snapshots:
 
   is-symbol@1.0.4:
     dependencies:
-      has-symbols: 1.0.3
+      has-symbols: 1.1.0
 
   is-typed-array@1.1.13:
     dependencies:
@@ -16852,8 +16869,6 @@ snapshots:
 
   object-hash@3.0.0: {}
 
-  object-inspect@1.13.2: {}
-
   object-inspect@1.13.3: {}
 
   object-is@1.1.6:
@@ -16867,7 +16882,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
-      has-symbols: 1.0.3
+      has-symbols: 1.1.0
       object-keys: 1.1.1
 
   ofetch@1.3.4:
@@ -17858,7 +17873,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
       get-intrinsic: 1.2.4
-      has-symbols: 1.0.3
+      has-symbols: 1.1.0
       isarray: 2.0.5
 
   safe-buffer@5.1.2: {}
@@ -17944,7 +17959,7 @@ snapshots:
       es-errors: 1.3.0
       function-bind: 1.1.2
       get-intrinsic: 1.2.4
-      gopd: 1.0.1
+      gopd: 1.2.0
       has-property-descriptors: 1.0.2
 
   set-function-name@2.0.2:
@@ -17987,7 +18002,7 @@ snapshots:
       call-bind: 1.0.7
       es-errors: 1.3.0
       get-intrinsic: 1.2.4
-      object-inspect: 1.13.2
+      object-inspect: 1.13.3
 
   siginfo@2.0.0: {}
 
@@ -18650,7 +18665,7 @@ snapshots:
       call-bind: 1.0.7
       for-each: 0.3.3
       gopd: 1.0.1
-      has-proto: 1.0.3
+      has-proto: 1.1.0
       is-typed-array: 1.1.13
 
   typed-array-byte-offset@1.0.2:
@@ -18659,7 +18674,7 @@ snapshots:
       call-bind: 1.0.7
       for-each: 0.3.3
       gopd: 1.0.1
-      has-proto: 1.0.3
+      has-proto: 1.1.0
       is-typed-array: 1.1.13
 
   typed-array-length@1.0.6:
@@ -18667,7 +18682,7 @@ snapshots:
       call-bind: 1.0.7
       for-each: 0.3.3
       gopd: 1.0.1
-      has-proto: 1.0.3
+      has-proto: 1.1.0
       is-typed-array: 1.1.13
       possible-typed-array-names: 1.0.0
 
@@ -18711,7 +18726,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.7
       has-bigints: 1.0.2
-      has-symbols: 1.0.3
+      has-symbols: 1.1.0
       which-boxed-primitive: 1.0.2
 
   unconfig@0.6.0:
@@ -18809,6 +18824,25 @@ snapshots:
       - rollup
 
   unimport@3.14.2(rollup@4.24.4):
+    dependencies:
+      '@rollup/pluginutils': 5.1.3(rollup@4.24.4)
+      acorn: 8.14.0
+      escape-string-regexp: 5.0.0
+      estree-walker: 3.0.3
+      local-pkg: 0.5.1
+      magic-string: 0.30.14
+      mlly: 1.7.3
+      pathe: 1.1.2
+      picomatch: 4.0.2
+      pkg-types: 1.2.1
+      scule: 1.3.0
+      strip-literal: 2.1.1
+      tinyglobby: 0.2.10
+      unplugin: 1.16.0
+    transitivePeerDependencies:
+      - rollup
+
+  unimport@3.14.3(rollup@4.24.4):
     dependencies:
       '@rollup/pluginutils': 5.1.3(rollup@4.24.4)
       acorn: 8.14.0
