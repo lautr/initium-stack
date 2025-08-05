@@ -238,8 +238,8 @@ importers:
         specifier: 10.4.21
         version: 10.4.21(postcss@8.4.49)
       daisyui:
-        specifier: 4.12.23
-        version: 4.12.23(postcss@8.4.49)
+        specifier: 4.12.24
+        version: 4.12.24(postcss@8.4.49)
       postcss:
         specifier: 8.4.49
         version: 8.4.49
@@ -4088,8 +4088,8 @@ packages:
   dag-map@1.0.2:
     resolution: {integrity: sha512-+LSAiGFwQ9dRnRdOeaj7g47ZFJcOUPukAP8J3A3fuZ1g9Y44BG+P1sgApjLXTQPOzC4+7S9Wr8kXsfpINM4jpw==}
 
-  daisyui@4.12.23:
-    resolution: {integrity: sha512-EM38duvxutJ5PD65lO/AFMpcw+9qEy6XAZrTpzp7WyaPeO/l+F/Qiq0ECHHmFNcFXh5aVoALY4MGrrxtCiaQCQ==}
+  daisyui@4.12.24:
+    resolution: {integrity: sha512-JYg9fhQHOfXyLadrBrEqCDM6D5dWCSSiM6eTNCRrBRzx/VlOCrLS8eDfIw9RVvs64v2mJdLooKXY8EwQzoszAA==}
     engines: {node: '>=16.9.0'}
 
   data-uri-to-buffer@2.0.2:
@@ -13894,7 +13894,7 @@ snapshots:
 
   dag-map@1.0.2: {}
 
-  daisyui@4.12.23(postcss@8.4.49):
+  daisyui@4.12.24(postcss@8.4.49):
     dependencies:
       css-selector-tokenizer: 0.8.0
       culori: 3.3.0
