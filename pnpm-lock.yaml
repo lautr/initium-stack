@@ -70,7 +70,7 @@ importers:
     dependencies:
       '@adonisjs/auth':
         specifier: ^9.2.3
-        version: 9.5.1(kyhyehodnqp5swx77uqoej3gbe)
+        version: 9.5.1(tdprwd73qvbdk5yx3khzzqt3wq)
       '@adonisjs/core':
         specifier: ^6.14.1
         version: 6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0)
@@ -79,10 +79,10 @@ importers:
         version: 2.2.1(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))
       '@adonisjs/lucid':
         specifier: ^21.3.0
-        version: 21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.5.0)
+        version: 21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2)
       '@adonisjs/session':
         specifier: 7.6.0
-        version: 7.6.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.5.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))
+        version: 7.6.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))
       '@vinejs/vine':
         specifier: ^2.1.0
         version: 2.1.0
@@ -90,8 +90,8 @@ importers:
         specifier: 11.10.0
         version: 11.10.0
       luxon:
-        specifier: 3.5.0
-        version: 3.5.0
+        specifier: 3.7.2
+        version: 3.7.2
       reflect-metadata:
         specifier: ^0.2.2
         version: 0.2.2
@@ -121,8 +121,8 @@ importers:
         specifier: 1.15.5
         version: 1.15.5
       '@types/luxon':
-        specifier: 3.4.2
-        version: 3.4.2
+        specifier: 3.7.1
+        version: 3.7.1
       '@types/node':
         specifier: ^22.7.5
         version: 22.19.3
@@ -2776,8 +2776,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/luxon@3.4.2':
-    resolution: {integrity: sha512-TifLZlFudklWlMBfhubvgqTXRzLDI5pCbGa4P8a3wPyUQSW+1xQ5eDsreP9DWHX3tjq1ke96uYG/nwundroWcA==}
+  '@types/luxon@3.7.1':
+    resolution: {integrity: sha512-H3iskjFIAn5SlJU7OuxUmTEpebK6TKB8rxZShDslBMZJ5u9S//KM1sbdAisiSrqwLQncVjnpi2OK2J51h+4lsg==}
 
   '@types/mdast@4.0.4':
     resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
@@ -6781,8 +6781,8 @@ packages:
     resolution: {integrity: sha512-MhWWlVnuab1RG5/zMRRcVGXZLCXrZTgfwMikgzCegsPnG62yDQo5JnqKkrK4jO5iKqDAZGItAqN5CtKBCBWRUA==}
     engines: {node: '>=16.14'}
 
-  luxon@3.5.0:
-    resolution: {integrity: sha512-rh+Zjr6DNfUYR3bPwJEnuwDdqMbxZW7LOQfUN4B54+Cl+0o5zaU9RJ6bcidfDtC1cWCZXQ+nvX8bf6bAji37QQ==}
+  luxon@3.7.2:
+    resolution: {integrity: sha512-vtEhXh/gNjI9Yg1u4jX/0YVPMvxzHuGgCm6tC5kZyb08yjGWGnqAjGJvcXbqQR2P3MyMEFnRbpcdFS6PBcLqew==}
     engines: {node: '>=12'}
 
   lz-string@1.5.0:
@@ -10046,15 +10046,15 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@adonisjs/auth@9.5.1(kyhyehodnqp5swx77uqoej3gbe)':
+  '@adonisjs/auth@9.5.1(tdprwd73qvbdk5yx3khzzqt3wq)':
     dependencies:
       '@adonisjs/core': 6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0)
       '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))
       '@poppinss/utils': 6.10.1
       basic-auth: 2.0.1
     optionalDependencies:
-      '@adonisjs/lucid': 21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.5.0)
-      '@adonisjs/session': 7.6.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.5.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))
+      '@adonisjs/lucid': 21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2)
+      '@adonisjs/session': 7.6.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))
       '@japa/api-client': 2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4)
       '@japa/plugin-adonisjs': 3.0.2(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/runner@3.1.4)(playwright@1.46.0)
     transitivePeerDependencies:
@@ -10219,7 +10219,7 @@ snapshots:
       abstract-logging: 2.0.1
       pino: 10.1.0
 
-  '@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.5.0)':
+  '@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2)':
     dependencies:
       '@adonisjs/core': 6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0)
       '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))
@@ -10239,7 +10239,7 @@ snapshots:
     optionalDependencies:
       '@adonisjs/assembler': 7.8.2(typescript@5.7.3)
       '@vinejs/vine': 2.1.0
-      luxon: 3.5.0
+      luxon: 3.7.2
     transitivePeerDependencies:
       - better-sqlite3
       - mysql
@@ -10262,13 +10262,13 @@ snapshots:
       '@poppinss/colors': 4.1.6
       string-width: 7.2.0
 
-  '@adonisjs/session@7.6.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.5.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))':
+  '@adonisjs/session@7.6.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))':
     dependencies:
       '@adonisjs/core': 6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0)
       '@poppinss/macroable': 1.1.0
       '@poppinss/utils': 6.10.1
     optionalDependencies:
-      '@adonisjs/lucid': 21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.5.0)
+      '@adonisjs/lucid': 21.8.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2)
       '@japa/api-client': 2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4)
 
   '@adonisjs/tsconfig@1.4.0': {}
@@ -11485,7 +11485,7 @@ snapshots:
       nopt: 5.0.0
       npmlog: 5.0.1
       rimraf: 3.0.2
-      semver: 7.6.3
+      semver: 7.7.3
       tar: 6.2.1
     transitivePeerDependencies:
       - encoding
@@ -11692,7 +11692,7 @@ snapshots:
     dependencies:
       '@nuxt/schema': '@nuxt/schema-edge@3.8.0-28284309.b3d3d7f4(rollup@4.24.4)'
       c12: 1.11.2(magicast@0.3.5)
-      consola: 3.2.3
+      consola: 3.4.2
       defu: 6.1.4
       globby: 13.2.2
       hash-sum: 2.0.0
@@ -11704,7 +11704,7 @@ snapshots:
       pkg-types: 1.3.1
       scule: 1.3.0
       semver: 7.7.3
-      ufo: 1.5.4
+      ufo: 1.6.1
       unctx: 2.4.1
       unimport: 3.14.6(rollup@4.24.4)
       untyped: 1.5.2
@@ -11878,14 +11878,14 @@ snapshots:
   '@nuxt/schema-edge@3.8.0-28284309.b3d3d7f4(rollup@4.24.4)':
     dependencies:
       '@nuxt/ui-templates': 1.3.4
-      consola: 3.2.3
+      consola: 3.4.2
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
       pkg-types: 1.3.1
       postcss-import-resolver: 2.0.0
       std-env: 3.10.0
-      ufo: 1.5.4
+      ufo: 1.6.1
       unimport: 3.14.6(rollup@4.24.4)
       untyped: 1.5.2
     transitivePeerDependencies:
@@ -11914,17 +11914,17 @@ snapshots:
     dependencies:
       c12: 2.0.1(magicast@0.3.5)
       compatx: 0.1.8
-      consola: 3.2.3
+      consola: 3.4.2
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
-      pkg-types: 1.2.1
+      pkg-types: 1.3.1
       scule: 1.3.0
       std-env: 3.10.0
-      ufo: 1.5.4
+      ufo: 1.6.1
       uncrypto: 0.1.3
-      unimport: 3.13.2(rollup@4.24.4)
-      untyped: 1.5.1
+      unimport: 3.14.6(rollup@4.24.4)
+      untyped: 1.5.2
     transitivePeerDependencies:
       - magicast
       - rollup
@@ -13099,7 +13099,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/luxon@3.4.2': {}
+  '@types/luxon@3.7.1': {}
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -16333,9 +16333,9 @@ snapshots:
   externality@1.0.2:
     dependencies:
       enhanced-resolve: 5.17.1
-      mlly: 1.7.3
+      mlly: 1.8.0
       pathe: 1.1.2
-      ufo: 1.5.4
+      ufo: 1.6.1
 
   fast-copy@3.0.2: {}
 
@@ -16632,7 +16632,7 @@ snapshots:
   giget@1.2.3:
     dependencies:
       citty: 0.1.6
-      consola: 3.3.3
+      consola: 3.4.2
       defu: 6.1.4
       node-fetch-native: 1.6.4
       nypm: 0.3.12
@@ -17963,18 +17963,18 @@ snapshots:
       '@parcel/watcher-wasm': 2.4.1
       citty: 0.1.6
       clipboardy: 4.0.0
-      consola: 3.3.3
+      consola: 3.4.2
       crossws: 0.3.1
       defu: 6.1.4
       get-port-please: 3.1.2
       h3: 1.13.0
       http-shutdown: 1.2.2
-      jiti: 2.4.2
-      mlly: 1.7.3
+      jiti: 2.6.1
+      mlly: 1.8.0
       node-forge: 1.3.1
       pathe: 1.1.2
-      std-env: 3.8.0
-      ufo: 1.5.4
+      std-env: 3.10.0
+      ufo: 1.6.1
       untun: 0.1.3
       uqr: 0.1.2
     transitivePeerDependencies:
@@ -17994,8 +17994,8 @@ snapshots:
 
   local-pkg@1.1.1:
     dependencies:
-      mlly: 1.7.4
-      pkg-types: 2.2.0
+      mlly: 1.8.0
+      pkg-types: 2.3.0
       quansync: 0.2.10
 
   local-pkg@1.1.2:
@@ -18070,7 +18070,7 @@ snapshots:
 
   lru-cache@8.0.5: {}
 
-  luxon@3.5.0: {}
+  luxon@3.7.2: {}
 
   lz-string@1.5.0: {}
 
@@ -18932,11 +18932,11 @@ snapshots:
   nypm@0.3.12:
     dependencies:
       citty: 0.1.6
-      consola: 3.3.3
+      consola: 3.4.2
       execa: 8.0.1
       pathe: 1.1.2
-      pkg-types: 1.3.0
-      ufo: 1.5.4
+      pkg-types: 1.3.1
+      ufo: 1.6.1
 
   nypm@0.4.1:
     dependencies:
@@ -18952,7 +18952,7 @@ snapshots:
       citty: 0.1.6
       consola: 3.4.2
       pathe: 2.0.3
-      pkg-types: 2.2.0
+      pkg-types: 2.3.0
       tinyexec: 1.0.2
 
   object-assign@4.1.1: {}
@@ -20722,7 +20722,7 @@ snapshots:
   terser@5.31.3:
     dependencies:
       '@jridgewell/source-map': 0.3.6
-      acorn: 8.14.0
+      acorn: 8.15.0
       commander: 2.20.3
       source-map-support: 0.5.21
 
@@ -21082,9 +21082,9 @@ snapshots:
       fast-glob: 3.3.3
       local-pkg: 0.5.1
       magic-string: 0.30.17
-      mlly: 1.7.3
+      mlly: 1.8.0
       pathe: 1.1.2
-      pkg-types: 1.2.1
+      pkg-types: 1.3.1
       scule: 1.3.0
       strip-literal: 2.1.1
       unplugin: 1.16.0
@@ -21136,10 +21136,10 @@ snapshots:
       estree-walker: 3.0.3
       local-pkg: 1.1.1
       magic-string: 0.30.17
-      mlly: 1.7.4
+      mlly: 1.8.0
       pathe: 2.0.3
       picomatch: 4.0.3
-      pkg-types: 2.2.0
+      pkg-types: 2.3.0
       scule: 1.3.0
       strip-literal: 3.0.0
       tinyglobby: 0.2.14
@@ -21411,7 +21411,7 @@ snapshots:
   untun@0.1.3:
     dependencies:
       citty: 0.1.6
-      consola: 3.3.3
+      consola: 3.4.2
       pathe: 1.1.2
 
   untyped@1.4.2:
@@ -21432,7 +21432,7 @@ snapshots:
       '@babel/standalone': 7.25.7
       '@babel/types': 7.26.0
       defu: 6.1.4
-      jiti: 2.4.0
+      jiti: 2.6.1
       mri: 1.2.0
       scule: 1.3.0
     transitivePeerDependencies:
@@ -21461,11 +21461,11 @@ snapshots:
 
   unwasm@0.3.9:
     dependencies:
-      knitwork: 1.2.0
+      knitwork: 1.3.0
       magic-string: 0.30.17
-      mlly: 1.7.3
+      mlly: 1.8.0
       pathe: 1.1.2
-      pkg-types: 1.3.0
+      pkg-types: 1.3.1
       unplugin: 1.16.0
 
   update-browserslist-db@1.2.2(browserslist@4.28.1):
@@ -21693,7 +21693,7 @@ snapshots:
   vscode-languageclient@7.0.0:
     dependencies:
       minimatch: 3.1.2
-      semver: 7.6.3
+      semver: 7.7.3
       vscode-languageserver-protocol: 3.16.0
 
   vscode-languageserver-protocol@3.16.0:
