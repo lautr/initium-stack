@@ -70,7 +70,7 @@ importers:
     dependencies:
       '@adonisjs/auth':
         specifier: ^9.2.3
-        version: 9.5.1(i6sfodzqkrklvjryppndzjqgie)
+        version: 9.5.1(uua35nnzqt3rd7ztnwpx6iizhm)
       '@adonisjs/core':
         specifier: ^6.14.1
         version: 6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0)
@@ -81,8 +81,8 @@ importers:
         specifier: ^21.3.0
         version: 21.8.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2)
       '@adonisjs/session':
-        specifier: 7.6.0
-        version: 7.6.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))
+        specifier: 7.7.0
+        version: 7.7.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))
       '@vinejs/vine':
         specifier: ^2.1.0
         version: 2.1.0
@@ -461,8 +461,8 @@ packages:
     resolution: {integrity: sha512-NnczRJusl0082GOjEFYwObW/yBGJtpfJFnkFCQdQ6eykgBHVNYaY6qstfob+l1bedetRj0hrDY6YfsWMkA0MCg==}
     engines: {node: '>=18.16.0'}
 
-  '@adonisjs/session@7.6.0':
-    resolution: {integrity: sha512-EuOcwWPUoFB9OQmENwv4GpAaczyAT8kDS+HAFse/Yz2VTjY1KxzmTfcmLIGkAxN9lU3h5TwoHKgVXLF373ORUQ==}
+  '@adonisjs/session@7.7.0':
+    resolution: {integrity: sha512-zGGATmrr6U9Zkv8F6wxy8t/IgV+PZMgSpgGnBP+8VgEyknZgLuz3MQiHXVbbtRPpDlPXWJzKnWEpkMCsbqPyqA==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
       '@adonisjs/core': ^6.6.0
@@ -10636,7 +10636,7 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@adonisjs/auth@9.5.1(i6sfodzqkrklvjryppndzjqgie)':
+  '@adonisjs/auth@9.5.1(uua35nnzqt3rd7ztnwpx6iizhm)':
     dependencies:
       '@adonisjs/core': 6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0)
       '@adonisjs/presets': 2.6.4(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))
@@ -10644,7 +10644,7 @@ snapshots:
       basic-auth: 2.0.1
     optionalDependencies:
       '@adonisjs/lucid': 21.8.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2)
-      '@adonisjs/session': 7.6.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))
+      '@adonisjs/session': 7.7.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))
       '@japa/api-client': 2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4)
       '@japa/plugin-adonisjs': 3.0.2(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))(@japa/runner@3.1.4)(playwright@1.46.0)
     transitivePeerDependencies:
@@ -10852,7 +10852,7 @@ snapshots:
       '@poppinss/colors': 4.1.6
       string-width: 7.2.0
 
-  '@adonisjs/session@7.6.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))':
+  '@adonisjs/session@7.7.0(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@adonisjs/lucid@21.8.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@adonisjs/core@6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0))(@vinejs/vine@2.1.0)(better-sqlite3@11.10.0)(luxon@3.7.2))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@1.3.4))(@japa/runner@3.1.4))':
     dependencies:
       '@adonisjs/core': 6.19.1(@adonisjs/assembler@7.8.2(typescript@5.9.3))(@vinejs/vine@2.1.0)
       '@poppinss/macroable': 1.1.0
